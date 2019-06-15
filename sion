@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT US</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">CONTACT US</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">OUR HISTORY</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">WE ARE ALWAYS THEIR TO RESPOND YOUR QUESTIONS</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-62
+size:120px">SION<br>CHOIR</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">ADEPR JENDA,RWANDA</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT SION CHOIR</span></h5>
+    <p>SION Choir is a Rwandan gospel choir based in Jenda, Nyabihu. It is one of the Rwanda’s most prominent gospel choirs.
+The CHOIR comprises 100 members, ranging in age from 18 to 61. They have appeared on national television programs including WARAMUTSE RWANDA, and The Late Show. They have performed in more than 10 churches in Rwanda.
+The group was founded  in 1995 (January 15, 1995) by The Youth from Jenda.
+.</p>
+    <p>In addition Music ministry is one of the most important ministries in any church. Music ministry enhances
+the worship space and “…is a vehicle that ushers in the presence of God. It sets and establishes
+an atmosphere that is conducive to worship, enabling the presence of God to move freely among
+the congregation, and allowing each person in the congregation to experience the Spirit on a
+personal level.”1
+As a Gospel Choir our primary mission is to glorify God. We seek to do this by simply giving
+our gifts back to the Creator through song. We approach every rehearsal and worship service
+with a spirit of gratitude because we accept that all that we are, and all that we have, has been
+given in grace by God. We recognize that “every good gift and every perfect gift is from above.”2
+As choir members, we are called to be good stewards of those gifts and resources given to us by
+the Creator. The Gospel Choir is committed to consistently ministering through music to the
+community. Through music primarily rooted in the African gospel tradition, we
+minister to others, we celebrate our lives, and we celebrate the many ways we come to God. As
+music ministers, we help usher persons to experience God/Creator/Divine
+Mystery/Sovereign/Great Ground of Being.
+We are a unique Gospel Choir. Our members come from Jenda t. Hence, we are
+multiracial, multicultural, and some of us adhere to different faiths. Our unity in spirit enables us
+to celebrate one another and empower others on their journeys. Music is universal and reaches
+persons at the deepest levels. It has the ability to penetrate and heal the deepest despair and
+engender hope. With so much unrest in our world, we are in dire need of the good news, the
+Gospel; the Gospel that loves and welcomes not the rhetoric that rejects and judges. This Gospel
+Choir seeks to bring and be that good news!
+We’ve come a long way! We began as The Youth  Gospel Choir in 1995 under the church of Adepr Jenda. The choir began with a handful of committed Youth. As the choir grew, it was
+clear that we needed to widen our name to be more inclusive of all. Therefore, we are officially
+called Sion Choir. We sing on a weekly basis in the Gospel Service each
+Sunday at 7:00pm in ADEPR JENDA CHURCH. The choir has performed at various events and churches in Rwanda.We hope to continue our growth, as we are always seeking new members. To God be
+the glory.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Community.</i></p>
+      <p>Christians believe that it is part of their duty to act in a moral way. This involves helping others around them.</p>
+    </div>
+    <p><strong>Church Service:</strong> every SUNDAY and TUESDAY from 6am to 12pm.</p>
+    <p><strong>Address:</strong>ADEPR,JENDA,NY</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT US</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Phone </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Email</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Contact US</h5>
+      <p class="w3-text-blue">078507647/jdmaniriho@gmail.com</p><br>
+    <!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OUR HISTORY</span></h5>
+    <p> Music ministry is one of the most important ministries in any church. Music ministry enhances
+the worship space and “…is a vehicle that ushers in the presence of God. It sets and establishes
+an atmosphere that is conducive to worship, enabling the presence of God to move freely among
+the congregation, and allowing each person in the congregation to experience the Spirit on a
+personal level.”1
+As a Gospel Choir our primary mission is to glorify God. We seek to do this by simply giving
+our gifts back to the Creator through song. We approach every rehearsal and worship service
+with a spirit of gratitude because we accept that all that we are, and all that we have, has been
+given in grace by God. We recognize that “every good gift and every perfect gift is from above.”2
+As choir members, we are called to be good stewards of those gifts and resources given to us by
+the Creator. The Gospel Choir is committed to consistently ministering through music to the
+community. Through music primarily rooted in the African gospel tradition, we
+minister to others, we celebrate our lives, and we celebrate the many ways we come to God. As
+music ministers, we help usher persons to experience God/Creator/Divine
+Mystery/Sovereign/Great Ground of Being.
+We are a unique Gospel Choir. Our members come from Jenda t. Hence, we are
+multiracial, multicultural, and some of us adhere to different faiths. Our unity in spirit enables us
+to celebrate one another and empower others on their journeys. Music is universal and reaches
+persons at the deepest levels. It has the ability to penetrate and heal the deepest despair and
+engender hope. With so much unrest in our world, we are in dire need of the good news, the
+Gospel; the Gospel that loves and welcomes not the rhetoric that rejects and judges. This Gospel
+Choir seeks to bring and be that good news!
+We’ve come a long way! We began as The Youth  Gospel Choir in 1995 under the church of Adepr Jenda. The choir began with a handful of committed Youth. As the choir grew, it was
+clear that we needed to widen our name to be more inclusive of all. Therefore, we are officially
+called Sion Choir. We sing on a weekly basis in the Gospel Service each
+Sunday at 7:00pm in ADEPR JENDA CHURCH. The choir has performed at various events and churches in Rwanda.We hope to continue our growth, as we are always seeking new members. To God be
+the glory.</p>SION Choir is a Rwandan gospel choir based in Jenda, Nyabihu. It is one of the Rwanda’s most prominent gospel choirs.
+The CHOIR comprises 100 members, ranging in age from 18 to 61. They have appeared on national television programs including WARAMUTSE RWANDA, and The Late Show. They have performed in more than 10 churches in Rwanda.
+The group was founded  in 1995 (January 15, 1995) by The Youth from Jenda.
+    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">Book!</span> Let us provide the soundtrack for your event!
+Sion Choir Events Choir is an enthusiastic group of semi-professional singers specialising in gospel and modern vocal styles. We regularly perform at weddings, parties, festivals, and corporate events.
+
+Email us at events jdmaniriho@gmail.com to enquire about hiring the events choir for your event, or visit our Facebook page to keep up with our latest news and events..</p>
+    <p><strong>Donate</strong>At its heart, Givelify is a three-tap, easy way for donors to give to any cause from their smartphones. However, there’s much more to it, like donation tracking for users (think taxes) and a web portal for registered nonprofits that allows them to customize their presence on Givelify, track donations and receive donation payouts.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Email Address" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="DATE OF BIRTH"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
